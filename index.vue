@@ -28,6 +28,10 @@ export default {
     }
   },
   methods: {
+    scrollBarInstance () {
+      return scrollBar
+    },
+  
     scrollHanle(evt) {
       this.$emit(evt.type, evt)
     },
